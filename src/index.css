@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --footer-height: 60px;
+  --logo-height: 8rem;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.app-content {
+  --offset: calc(var(--footer-height) + var(--logo-height));
+  min-height: calc(100vh - var(--offset));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
