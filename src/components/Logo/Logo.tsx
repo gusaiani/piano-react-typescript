@@ -1,5 +1,5 @@
-import React, { FunctionComponent } from "react";
-import "./style.css";
+import React, { FunctionComponent } from "react"
+import "./style.css"
 
 export const Logo: FunctionComponent = () => {
   return (
@@ -14,5 +14,5 @@ export const Logo: FunctionComponent = () => {
         🎵
       </span>
     </h1>
-  );
-};
+  )
+}
